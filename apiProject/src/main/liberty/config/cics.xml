@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server description="IPIC connection to CICS">
+    <featureManager>
+        <feature>zosconnect:cics-1.0</feature>
+    </featureManager>
+
+    <zosconnect_cicsIpicConnection id="cicsConn" host="10.3.20.108" port="54124" authDataRef="cicsCredentials"/>
+    
+    <zosconnect_authData id="cicsCredentials" user="mmerola" password="meri123"/>
+</server>
